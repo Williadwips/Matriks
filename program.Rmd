@@ -1,0 +1,60 @@
+---
+title: "Program Membuat Website Dengan Rstudio"
+author: "Willia Dwi Puspitasari // Teknik Informatika // UIN Maulana Malik Ibrahim Malang // Dosen Pengampu: Prof. Dr. Suhartono, M.Kom"
+date: "22 Februari 2021" 
+output: html_document
+---
+untuk lebih jelasnya, simak yuk :)
+
+## Creating Matriks
+Dibawah ini adalah data dari matriks A.
+```{r}
+A <- matrix(data = 1:25, nrow = 5, ncol = 5, byrow = TRUE)
+A
+```
+Dibawah ini adalah data dari matriks B.
+```{r}
+B <- matrix(data = 25:49, nrow = 5, ncol = 5, byrow = FALSE)
+B
+```
+## Element-wise opperation
+Penjumlahan: Dua buah matriks dapat dijumlahkan apabila keduanya memiliki ordo yang sama. Hasil operasi penjumlahannya adalah matriks baru yang memiliki ordo sama dengan matriks semula, dengan elemen-elemennya terdiri dari hasil penjumlahan elemen-elemen pada matriks.Berikut adalah penjumlahan Matriks A + Matriks B.
+```{r}
+A + B
+```
+pengurangan: Penguragan matriks memiliki konsep yang sama dengan penjumlahan. Dua buah matriks dapat dikurangkan apabila keduanya memiliki ordo yang sama.Hasil operasi pengurangannya adalah matriks baru yang memiliki ordo sama dengan matriks semula, dengan elemen-elemennya terdiri dari hasil pengurangan dengan elemen-elemen pada matriks.Berikut adalah hasil pengurangan Matriks A dan B. 
+```{r}
+A - B
+```
+perkalian: perkalian matriks dengan matriks yang kita asumsikan sebagai matriks A dan matriks B memiliki syarat, yaitu kolom matriks A harus sama dengan baris matriks B. Sedangkan ordo dari hasil perkalian matriks tersebut adalah banyaknya baris matriks A dikali dengan banyaknya kolom matriks B.
+```{r}
+A * B
+```
+pembagian: jika sudah mengetahui tentang perkalian mengenai matriks, maka akan paham pembagiannya, karena saling berkaitan. Berikut adalah hasil bagi dari matriks A dan matriks B.
+```{r}
+A / B
+```
+eksponensial(perpangkatan): perpangkatan yang dimaksud dalam operasi matriks adalah perkalian berulang suatu matriks dengan matriks itu sendiri. Syarat agar suatu matriks bisa dipangkatkan adalah, matriks tersebut haruslah matriks persegi atau matriks bujur sangkar.Berikut adalah eksponen matriks A dan matriks B.
+```{r}
+A ^ B
+```
+Mungkin itu saja postingan tentang "Matriks". Semoga bermanfaat dan mohon maaf atas segala kekurangan. Terimakasih sudah menyimak dengan baik...
+
+Daftar Pustaka:
+
+https://rstudio-pubs-static.s3.amazonaws.com/99415_2b07b7f8b93d4d4ca79ade8bacc4f89d.html
+
+Linear Algebra in R Url
+http://suhartono.lecturer.uin-malang.ac.id/sample-page/
+
+
+
+
+
+
+
+
+
+
+
+

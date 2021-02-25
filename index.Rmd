@@ -1,0 +1,15 @@
+---
+title: "Matriks Itu Asik"
+---
+
+Hello, welcome to my Website!
+
+![](https://breefstudio.com/wp-content/uploads/2020/01/speed-4028234_1920.jpg)
+Website ini berisi sedikit penjelasan tentang matriks. berikut adalah penjelasannya. enjoyed!!!
+
+Matriks adalah kumpulan bilangan yang disusun secara baris atau kolom atau kedua-duanya dan di dalam suatu tanda kurung. Bilangan-bilangan yang membentuk suatu matriks disebut sebagai elemen-elemen matriks. Matriks digunakan untuk menyederhanakan penyampaian data, sehingga mudah untuk diolah.
+
+Dalam matematika, matriks adalah susunan bilangan, simbol, atau ekspresi yang disusun dalam baris dan kolom sehingga membentuk suatu bangun persegi.
+
+
+
